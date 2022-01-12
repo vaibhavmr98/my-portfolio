@@ -2,10 +2,10 @@ import s from './TechSkills.module.scss';
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
+  // DiNodejs,
+  // DiMongodb,
+  // DiSass,
   DiGit,
-  DiSass,
   DiJqueryLogo,
   DiDatabase,
   DiHtml5,
@@ -14,9 +14,9 @@ import {
   DiVisualstudio
 } from 'react-icons/di';
 import {
-  SiTypescript,
-  SiRedux,
-  SiSocketDotIo,
+  // SiTypescript,
+  // SiRedux,
+  // SiSocketDotIo,
   SiAmazonaws,
 } from 'react-icons/si';
 
