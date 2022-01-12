@@ -1,5 +1,5 @@
 import s from './Resume.module.scss';
-import { ReactComponent as FilesIcon } from '../../assets/Resume-folder-bro.svg';
+import { ReactComponent as FilesIcon } from '../../assets/Resume-bro.svg';
 import { ReactComponent as DownloadIcon } from '../../assets/download.svg';
 import { useEffect, useRef, useState } from 'react';
 import BaseLayout from '../../layouts/BaseLayout/BaseLayout';
@@ -10,8 +10,11 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+//const resumeLink =  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+
+  
+const resumeLink = 'https://s3-us-west-2.amazonaws.com/vasyerpsolutions/croodshrmsv2/documents/employee/48/1613381177345_Resume%20Copy.pdf';
+
 
 const Resume = () => {
   const pdfWrapper = useRef(null);

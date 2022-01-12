@@ -23,6 +23,7 @@ const MainSection = () => {
               'WEB Developer',
               'Quick Learner',
               'JAVA Developer',
+              'Full Stack Dev.',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

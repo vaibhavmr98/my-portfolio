@@ -28,10 +28,10 @@ const About = () => {
         </h2>
         <TechSkills />
 
-        {/* <h2 className={s.githubActivity}>
+        <h2 className={s.githubActivity}>
           Days I <b className={s.purple}>Code</b>
         </h2>
-        <GithubActivity /> */}
+        <GithubActivity />
       </div>
     </BaseLayout>
   );
