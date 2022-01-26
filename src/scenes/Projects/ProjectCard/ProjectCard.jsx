@@ -21,7 +21,7 @@ const ProjectCard = ({ id, image, title, description }) => {
             effect="blur"
             src={image.src}
             width="100%"
-            style={{ minHeight: '10rem' }}
+            style={{ minHeight: '10rem',borderRadius : '7px' }}
             placeholderSrc={image.placeholderSrc}
           />
         </Link>

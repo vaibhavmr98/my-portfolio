@@ -2,6 +2,7 @@ import s from './NavLinks.module.scss';
 import {
   AiOutlineHome,
   AiOutlineUser,
+  AiOutlineFundProjectionScreen,
 } from 'react-icons/ai';
 import { CgFileDocument } from 'react-icons/cg';
 import { routes } from '../../../routes/BaseRoutes';
@@ -24,12 +25,12 @@ const NavLinks = () => {
         </NavLink>
       </li>
 
-      {/* <li>
+      <li>
         <NavLink to={routes.PROJECTS} activeClassName={s.active}>
           <AiOutlineFundProjectionScreen />
           Projects
         </NavLink>
-      </li> */}
+      </li>
 
       
 

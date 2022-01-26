@@ -1,124 +1,133 @@
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Apiko Marketplace',
+    title: 'TextUtils',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'An online text utility app made with React. The project was developed to convert text to uppercase,lowercase,reverse each word, word counter and remover extra spaces.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://raw.githubusercontent.com/vaibhavmr98/textutils/main/public/screencapture-textutils.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      site: 'https://textutils-vaibhavmr98.netlify.app/',
+      repo: 'https://github.com/vaibhavmr98/textutils.git',
     },
     technologies: [
       '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
+      '#router',
+      '#states & Props',
+      '#functional components',
+      '#Bootstrap'
     ],
   },
   {
     id: '2',
-    title: 'Places App',
+    title: 'Weather App',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'A responsive, effective, clean, minimalistic and beautiful Weather App. It can able to search with city name and give various weather details like temperature,climate,wind speed ,etc.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: 'https://raw.githubusercontent.com/vaibhavmr98/react-weather-app/main/public/weatherapp-screenshot.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: 'https://weatherapp-vaibhavmr98.netlify.app/',
+      repo: 'https://github.com/vaibhavmr98/react-weather-app.git',
     },
     technologies: [
       '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
+      '#fetch API',
+      '#Bootstrap',
+      '#Responsive design',
+      '#Weather Material Icons'
     ],
   },
   {
     id: '3',
-    title: 'eCommerce Mobile App',
+    title: 'Live Covid 19 Tracking App',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'A Live fetching COVID-19 cases tracking application built with React that includes self explainary digits and responsive as well as beautiful design.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: 'https://raw.githubusercontent.com/vaibhavmr98/livecovid19tracker/main/public/livecovid19tracker-screenshot.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      site: 'https://livecovid19tracker-vaibhavmr98.netlify.app/',
+      repo: 'https://github.com/vaibhavmr98/livecovid19tracker.git',
     },
     technologies: [
-      '#react-native',
-      'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
+      '#react',
+      '#Bootstrap',
+      '#Material UI',
+      '#Fetch API',
+      '#react Hooks'
     ],
   },
   {
     id: '4',
-    title: 'Places Mobile App',
+    title: 'VPay - React Portfolio Website ',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'A Complete Protfolio multipage website,having realtime firebase setup in it. This website is clean,beautiful and responsive too. ',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
+      src: 'https://raw.githubusercontent.com/vaibhavmr98/reactwebsitewithfirebase/main/public/vpay-Screenshot.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: 'https://vpay-vaibhavmr98.netlify.app/',
+      repo: 'https://github.com/vaibhavmr98/reactwebsitewithfirebase.git',
     },
     technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
+      '#react',
+      '#react hooks',
+      '#firebase',
+      '#bootstrap',
+      '#semantic UI',
     ],
   },
   {
     id: '5',
-    title: 'Shopping Cart',
+    title: 'TODO - React TODO App ',
     description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
+      'A Simple TODO App for day-to-day useage,in this i have used browser local storage to store the todo items. This website is clean,beautiful and responsive too. ',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+      src: 'https://raw.githubusercontent.com/vaibhavmr98/todoapp/main/public/screencapture-todo-app.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
+      site: 'https://todo-vaibhavmr98.netlify.app/',
+      repo: 'https://github.com/vaibhavmr98/todoapp.git',
     },
     technologies: [
       '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
+      '#react hooks',
+      '#local storage',
     ],
   },
+  // {
+  //   id: '5',
+  //   title: 'Shopping Cart',
+  //   description:
+  //     'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
+  //   image: {
+  //     src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+  //     placeholderSrc:
+  //       'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+  //   },
+  //   links: {
+  //     site: 'https://shopping-cart-sv.netlify.app/',
+  //     repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
+  //   },
+  //   technologies: [
+  //     '#react',
+  //     '#typescript',
+  //     '#material-ui',
+  //     '#styled-components',
+  //     '#swr',
+  //     '#fakestoreapi',
+  //   ],
+  // },
 ];
