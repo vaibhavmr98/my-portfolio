@@ -10,10 +10,10 @@ import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-//const resumeLink =  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+const resumeLink =  'https://raw.githubusercontent.com/vaibhavmr98/my-portfolio/5ef99bc1effaa6a972c8a3735a71bbf1df11699d/public/vaibhav_Resume.pdf';
 
   
-const resumeLink = 'https://s3-us-west-2.amazonaws.com/vasyerpsolutions/croodshrmsv2/documents/employee/48/1613381177345_Resume%20Copy.pdf';
+//const resumeLink = 'https://s3-us-west-2.amazonaws.com/vasyerpsolutions/croodshrmsv2/documents/employee/48/1613381177345_Resume%20Copy.pdf';
 
 
 const Resume = () => {
